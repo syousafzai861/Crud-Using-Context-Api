@@ -6,6 +6,10 @@ export default (state, action) => {
           return user.id !== action.payload;
         }),
       };
+    case "ADD_USER":
+      return {
+        users: [action.payload, ...state.users],
+      };
     default:
       return state;
   }
