@@ -9,7 +9,7 @@ import {
 import Home from './Component/Home';
 import AddUser from './Component/AddUser';
 import EditUser from "./Component/EditUser";
-import 'bootstrap//dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div style={{maxwidth:"30rem", margin:"4rem auto"}}>

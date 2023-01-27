@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.StyBtn{
+    display: flex !important;
+    /* justify-content: space-between !important; */
+}
+.btn-warning{
+    margin-left: 800px;
+}
+.btn-danger{
+    margin-left: 2px;
+    height: 37px;
+}

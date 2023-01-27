@@ -3,10 +3,10 @@ import Heading from "./Heading";
 import Userlist from "./Userlist";
 const Home = () => {
   return (
-    <div>
+    <>
      <Heading/>
      <Userlist/>
-    </div>
+    </>
   )
 }
 
