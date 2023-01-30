@@ -2,13 +2,14 @@ import React, { useContext, useState  } from "react";
 import { GlobalContext } from "./Context/GlobalState";
 import { Form, FormGroup, Label, Button, Input } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
+import {v4 as uuid} from 'uuid';
 const AddUser = () => {
   const [name, setName] = useState();
   const { addUser } = useContext(GlobalContext);
   const history = useNavigate();
   const onSubmit = ()=>{
       const newuser = {
-        id: 4,
+        id: uuid(),
         name 
       }
       addUser(newuser)
