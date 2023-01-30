@@ -13,6 +13,7 @@ const AddUser = () => {
         name 
       }
       addUser(newuser)
+      localStorage.setItem("Value",name);
       history("/")
   }
   return (

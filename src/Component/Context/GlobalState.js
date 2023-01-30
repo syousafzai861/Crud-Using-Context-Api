@@ -2,11 +2,8 @@ import React, { createContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 
 // initial state
-const initialstate = {
+const initialstate = {  //all the records are saving in this array 
   users: [
-    { id: 1, name: "userOne" },
-    { id: 2, name: "userTwo" },
-    { id: 3, name: "userThree" },
   ]
 };
 // now intializing the GLobal context
